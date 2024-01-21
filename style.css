@@ -1,0 +1,350 @@
+.container{
+    width: 100%;
+    background-color: rgb(216, 213, 213);
+    text-align: center;
+}
+.main{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(216, 213, 213) ;
+    display: flex;
+    
+    justify-content: center;
+}
+.box{
+    width: 90px;
+    padding: 10px ;
+    border-bottom: 4px solid  grey;
+    color: grey;
+    
+    text-align: center;
+
+}
+.box:hover{
+    background-color: grey;
+}
+.boxone{
+    width: 90px;
+    
+    padding: 10px;
+    border-bottom: 4px solid  rgb(202, 14, 14);
+    color: grey;
+    text-align: center;
+}
+.boxone:hover{
+    background-color: rgb(202, 14, 14) ;
+}
+.boxtwo{
+    width: 90px;
+    
+    padding: 10px;
+    border-bottom: 4px solid  orangered;
+    color: grey;
+    text-align: center;
+}
+.boxtwo:hover{
+    background-color:orangered ;
+}
+.boxthree{
+    width: 90px;
+    
+    padding: 10px;
+    border-bottom: 4px solid yellow;
+    color: grey;
+    text-align: center;
+}
+.boxthree:hover{
+background-color: yellow;
+}
+.boxfour{
+    width: 90px;
+    
+    padding: 10px;
+    border-bottom: 4px solid green;
+    color: grey;
+    text-align: center;
+}
+.boxfour:hover{
+    background-color: green;
+}
+.boxfive{
+    width: 90px;
+    
+    padding: 10px;
+    border-bottom: 4px solid blue;
+    color: grey;
+    text-align: center;
+}
+.boxfive:hover{
+background-color: blue;
+}
+.boxsix{
+    width: 90px;
+    
+    padding: 10px;
+    border-bottom: 4px solid purple;
+    color: grey;
+    text-align: center;
+}
+.boxsix:hover{
+   
+    background-color:purple ;
+}
+
+.box>span{
+    color: inherit;
+}
+.boxone>span{
+     color: grey;
+}
+.boxtwo>span{
+    color: grey;
+}
+.boxthree>span{
+    color: grey;
+}
+.boxfour>span{
+    color: grey;
+}
+.boxfive>span{
+    color: grey;
+}
+.boxsix>span{
+    color: grey;
+}
+.dadi{
+    width: 100%;
+    height: 2200px;
+    border-bottom: 40px  solid rgb(159, 144, 144);
+    border-left:40px  solid rgb(159, 144, 144); 
+    border-right: 40px  solid rgb(159, 144, 144);
+}
+
+.a>img{
+    width: 450px;
+    height: 400px;
+}
+.a {
+    margin-top: 15px;
+    width: 450px;
+    background-color: yellow;
+margin-left: 250px;
+border-radius: 2%;
+text-align: center;
+    
+}
+.b>img{
+    width:350px ;
+}
+.b{
+    margin-top: 15px;
+    width: 350px;
+    background-color:rgb(194, 35, 194);
+margin-left: 10px;
+
+border-radius: 2%;
+text-align: center;
+}
+.a,.b{
+    display: inline-block;
+}
+.c>img{
+    height: 200px;
+
+}
+.c>span{
+    font-size: 30px;
+}
+.d>img{
+    width: 300px;
+ }
+ .d{
+     width: 300px;
+     border-radius: 2%;
+     margin-top: 10px;
+     background-color: rgb(226, 147, 119);
+    font-size:20PX ;
+    text-align:center;
+    margin-left: 200px;
+    
+ }
+ .e>img{
+     width:300px ;
+ }
+ .e{
+     width: 300px;
+     border-radius: 2%;
+     margin-top: 20px;
+     background-color: rgb(181, 181, 181);
+    font-size:25PX ;
+    text-align:center;
+ 
+ }
+ .f>img{
+     width:300px ;
+ }
+ .f{
+     width: 300px;
+     border-radius: 2%;
+     margin-top: 10px;
+     background-color: rgb(196, 132, 12);
+    font-size:20PX ;
+    text-align:center;
+ }
+ .d,.e,.f{
+     display:inline-block;
+    justify-content:center;
+    padding: 10px;
+ }
+ .g{
+    margin-top: 80px;
+    background-color: black;
+    color: antiquewhite;
+    width: 15%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 270px;
+    border-radius: 2% !important;
+
+}
+.h>img{
+    width: 140px;
+}
+.h{
+    width: 200px;
+    background-color: rgb(114, 100, 100);
+    font-size: 20px;
+    text-align: center;
+}
+.i>img{
+    width: 140px;
+}
+.i{
+    width: 200px;
+    background-color: rgb(114, 100, 100);
+    font-size: 20px;
+    text-align: center;
+}
+.h,.i{
+    display: inline-block  !important;
+   
+} 
+.j>img{
+    width: 300px;
+    }
+    .j{
+       margin-left: 210px;
+        width: 300px;
+        border-radius: 2%;
+        margin-top: 30px;
+        background-color: rgb(124, 122, 119);
+       font-size:20PX ;
+       text-align:center;
+    }
+    .k>img{
+        width: 300px;
+    }
+    .k{
+        margin-left: 20px;
+        width: 300px;
+        border-radius: 2%;
+        margin-top: 30px;
+        background-color: rgb(9, 7, 7);
+       font-size:20PX ;
+       text-align:center;  
+       color: bisque;
+    }
+    .l>img{
+        width: 300px;
+    }
+    .l{
+        margin-left: 20px;
+        width: 300px;
+        border-radius: 2%;
+        margin-top: 30px;
+        background-color: rgb(35, 130, 81);
+       font-size:20PX ;
+       text-align:center;  
+       color: bisque;
+    }
+    .j,.k,.l{
+        display: inline-block;
+    }
+    .m>img{
+        width: 300px;
+        }
+        .m{
+            margin-left: 210px;
+            width: 300px;
+            border-radius: 2%;
+            margin-top: 30px;
+            background-color: rgb(67, 166, 248);
+           font-size:20PX ;
+           text-align:center;  
+           color: bisque;
+        }
+        .n>img{
+            width: 300px;
+        }
+        .n{
+            margin-left: 20px;
+            width: 300px;
+            border-radius: 2%;
+            margin-top: 30px;
+            background-color: rgb(130, 98, 8);
+           font-size:20PX ;
+           text-align:center;  
+           color: bisque; 
+        }
+        .o>img{
+            width: 300px;
+        }
+        .o{
+            margin-left: 20px;
+            width: 300px;
+            border-radius: 2%;
+            margin-top: 30px;
+            background-color: rgb(113, 7, 43);
+           font-size:20PX ;
+           text-align:center;  
+           color: bisque; 
+        }
+        .m,.n,.o{
+            display: inline-block;
+        }
+        .shayan{
+            margin-top: -20px;
+            width: 100%;
+            height: 800px;
+            background-color: rgb(29, 29, 29);
+            color: white;
+        }    
+         
+        .p{
+            margin-top: 30px;
+            font-size: 20px;
+            margin-left: 200px;
+        }
+        .q{
+            margin-right: 40px;
+             font-size: 20px;
+             align-items: center;
+        }
+        .p,.q{
+            display: inline-block;
+        }
+        .r{
+            margin-top: 30px;
+            font-size: 20px;
+            margin-left: 200px;
+        }
+        .s{
+            padding: 30px;
+            margin-top: -30px;
+            font-size: 40px;
+            
+
+        }
+        .r,.s{
+            display: inline-block;
+        }
